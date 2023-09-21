@@ -1,43 +1,46 @@
-<!--Author: Sreeyuth Gunnam-->
-<!--Date: 09-20-23-->
-<!--File name: styles.css-->
-    
-<!-- CSS Reset -->
-    body, header, nav, main, footer, img, h1, h3 {
-        margin: 0;
-        padding: 0;
-        border: 0;
+/* Author: Sreeyuth Gunnam
+   Date: 09-20-23
+   File name: style.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-<!-- Style rules for body and images-->
-body{
+/* Style rules for body and images */
+body {
     background-color: #feee4;
 }
 
-img{
+img {
     max-width: 100%;
-    display: block
+    display: block;
 }
 
-<!-- Style rules for navigation area-->
+/* Style rules for navigation area */
 nav {
-    backgroung-color: #2a1f14;
+    background-color: #2a1f14;
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
-    margin: 0
+    margin: 0;
     text-align: center;
-        
 }
-nav li{
-    display: inline;
-    font-size: 1.5cm;
+
+nav li {
+    display: inline-block;
+    font-size: 1.3em;
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
 }
-nav li a{
+
+nav li a {
     display: block;
-    color: #f6eee4;
+    color: #f6ece4;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 2em;
@@ -45,62 +48,54 @@ nav li a{
     text-decoration: none;
 }
 
-<!-- Style rules for main content-->
-main{
+/* Style rules for main content */
+main {
     padding: 2%;
     font-family: Verdana, Arial, sans-serif;
 }
-main p{
+
+main p {
     font-size: 1.25em;
 }
-main h3{
+
+main h3 {
     padding-top: 2%;
 }
-main ul{
+
+main ul {
     list-style-type: square;
 }
 
-<!--Style rules for classes link and action-->
-.link{
+.link {
     color: #4d3319;
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
-    
 }
-.action{
+
+.action {
     font-size: 1.75em;
     font-weight: bold;
     text-align: center;
-    
 }
 
-<!-- Style rule for id selector-->
-{
+#contact {
     text-align: center;
 }
 
-<!--Style rules for footer content-->
-footer{
+/* Style rules for footer content */
+footer {
     text-align: center;
     font-size: 0.85em;
     background-color: #2a1f14;
-    color: #f6eee4;
+    color: #f6ece4;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 0%;
     padding-left: 0%;
 }
 
-footer a{
+footer a {
     color: #f3e6d8;
     text-decoration: none;
 }
-
-
-
-
-
-
-    
-    
